@@ -1,0 +1,13 @@
+{
+    "start": "react-native start",
+    "run:android": "react-native run-android",
+    "run:ios": "react-native run-ios",
+    "run:web": "webpack serve --mode=development --config webpack.config.js --target web",
+    "run:electron": "webpack --mode=development --config webpack.config.js --env use-target=electron && electron . --mode=development",
+    "build:android": "",
+    "build:ios": "",
+    "build:web": "",
+    "build:electron": "",
+    "test": "jest",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
+}

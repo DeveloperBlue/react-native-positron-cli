@@ -1,0 +1,41 @@
+{
+  "name": "react-native-positron-cli",
+  "version": "0.1.0",
+  "description": "CLI for generating React-Native projects with React-Native-Web and Electron for building cross-platform apps on Android, iOS, Windows, MacOS, Linux, and the web.",
+  "author" : {
+    "name" : "Michael Rooplall",
+    "email" : "MichaelRooplall@gmail.com",
+    "url" : "https://www.MichaelRooplall.com/"
+  },
+  "keywords": [
+    "react-native-positron",
+    "react-native-web",
+    "react-native",
+    "react",
+    "electron",
+    "webpack",
+    "babel",
+    "typescript",
+    "android",
+    "ios",
+    "windows",
+    "macos",
+    "linux",
+    "web",
+    "cross-platform",
+    "template",
+    "cli"
+  ],
+  "main": "./lib/init.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin" : {
+    "react-native-positron-cli" : "./bin/index.js"
+  },
+  "preferGlobal" : true,
+  "license": "ISC",
+  "dependencies": {
+    "minimist": "^1.2.5"
+  }
+}
